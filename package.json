@@ -1,9 +1,9 @@
 {
   "name": "root",
   "private": true,
-  "scripts": {    
+  "scripts": {
     "install": "lerna bootstrap",
-    "start": "lerna exec \"yarn start\" --scope=@sencha/ext-react-modern-typescript-boilerplate",    
+    "start": "lerna exec \"yarn start\" --scope=@sencha/ext-react-modern-typescript-boilerplate"
   },
   "devDependencies": {
     "lerna": "^3.5.1",
