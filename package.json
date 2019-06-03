@@ -1,0 +1,15 @@
+{
+  "name": "root",
+  "private": true,
+  "scripts": {    
+    "install": "lerna bootstrap",
+    "start": "lerna exec \"yarn start\" --scope=@sencha/ext-react-modern-typescript-boilerplate",    
+  },
+  "devDependencies": {
+    "lerna": "^3.5.1",
+    "rimraf": "^2.6.1"
+  },
+  "workspaces": [
+    "packages/*"
+  ]
+}
